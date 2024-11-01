@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DHT22 Pin=U1-15
+Added Pin To Net: NetName=DHT22 Pin=U1-14
+Added Member To Class: ClassName=FanSCH Member=Component C5 104
+Added Member To Class: ClassName=FanSCH Member=Component R? 1k

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=AC-L Pin=F1-1
+Removed Pin From Net: NetName=AC-L Pin=F1-1
+Removed Member From Class: ClassName=FanSCH Member=F1
+Added Component: Designator=F?(Fuse 520)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Fuse"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AC-L Pin=F?-1
+Added Pin To Net: NetName=NetF?_2 Pin=F?-2
+Added Pin To Net: NetName=NetF?_2 Pin=J1-1
+Added Net: Name=NetF?_2
+Added Member To Class: ClassName=FanSCH Member=Component F? 5A

@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=AC-N Pin=C2-1
+Removed Pin From Net: NetName=AC-N Pin=C3-1
+Removed Pin From Net: NetName=AC-L Pin=C3-2
+Removed Pin From Net: NetName=+5 Pin=L1-1
+Removed Pin From Net: NetName=AC-L Pin=PS1-1
+Removed Pin From Net: NetName=AC-N Pin=PS1-2
+Removed Pin From Net: NetName=GND Pin=PS1-3
+Removed Pin From Net: NetName=+5 Pin=PS1-4
+Removed Pin From Net: NetName=AC-L Pin=R1-1
+Removed Pin From Net: NetName=GND Pin=R8-1
+Removed Pin From Net: NetName=DHT22 Pin=U5-7
+Removed Member From Class: ClassName=FanSCH Member=C2
+Removed Member From Class: ClassName=FanSCH Member=C3
+Removed Member From Class: ClassName=FanSCH Member=PS1
+Removed Member From Class: ClassName=FanSCH Member=R1
+Removed Member From Class: ClassName=FanSCH Member=R8
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=F? NewDesignator=F1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Component: Designator=JDC1(DC0)
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=R?(tro smd 0603)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006334"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0603 1% 1k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=JDC1-1
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=+5 Pin=R?-2
+Added Pin To Net: NetName=DHT22 Pin=U1-15
+Change Net Name : Old Net Name=NetF?_2 New Net Name=NetF1_2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R?-1
+Added Net: Name=NetL1_1
+Added Member To Class: ClassName=FanSCH Member=Component JDC1 Jac DC
+Added Member To Class: ClassName=FanSCH Member=Component R? 1k
